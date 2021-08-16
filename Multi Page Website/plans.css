@@ -1,0 +1,106 @@
+/* Styling Multi Page Website */
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    background-color: rgb(131, 131, 131);
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    width: 10%;
+}
+h3{
+    margin-left: 50px;
+    margin-top: 25px;
+    color: white;
+}
+.navigation{
+    display: flex;
+}
+ul{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 450px;
+}
+ul li{
+    list-style: none;
+    padding: 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+ul li a:hover{
+    color: rgb(85, 84, 84);
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+.plans h2{
+    text-align: center;
+    font-size: 30px;
+}
+.plans h3{
+    color: black;
+    text-align: center;
+
+}
+.p1{
+    width: 51%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: lightgray;
+    margin-top: 20px;
+}
+.p1 h4{
+    text-align: center;
+}
+.p1 p{
+    text-align: center;
+}
+.p2{
+    width: 51%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: lightgray;
+    margin-top: 20px;
+
+}
+.p2 h4{
+    text-align: center;
+}
+.p2 p{
+    text-align: center;
+}
+.p3{
+    width: 51%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: lightgray;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.p3 h4{
+    text-align: center;
+}
+.p3 p{
+    text-align: center;
+}
+footer{
+    width: 100%;
+    background-color: rgb(131, 131, 131);
+    color: white;
+    padding: 20px 5px;
+    text-align: center;
+    /* position: absolute;
+    bottom: 0; */
+    font-size: 20px;
+}

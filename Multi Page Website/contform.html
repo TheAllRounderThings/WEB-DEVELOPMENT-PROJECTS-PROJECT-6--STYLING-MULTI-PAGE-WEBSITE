@@ -1,0 +1,68 @@
+<!-- Creating a Multi Page Driving School Website -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 3</title>
+    <link rel="stylesheet" href="contform.css">
+</head>
+<body>
+    <!-- Adding Nav Bar -->
+    <nav>
+        <!-- Adding a logo with a image -->
+        <div class="logo">
+            <h3>THE DRIVING SCHOOL
+                <img src="1b8a7a1225ad4879ae80742c136a2306.png" width="5%" alt="Logo">
+            </h3>
+        </div>
+        <!-- Adding navigation links -->
+        <div class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="plans.html">Plans</a></li>
+                <li><a href="contform.html">Contact Form</a></li>
+                <li><a href="mailto:tart@gmail.com">Email Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="contact">
+        <form action="#">
+            <h2>CONTACT FORM</h2>
+            <label for="fname">
+                <p>First Name: <input type="text" name="fname" id="fname"></p>
+            </label>
+            <label for="lname">
+                <p>Last Name: <input type="text" name="lname" id="lname"></p>
+            </label>
+            <label for="cont">
+                <p>Contact Number: <input type="number" name="cont" id="cont"></p>
+            </label>
+            <label for="email">
+                <p>Email: <input type="email" name="email" id="email"></p>
+            </label>
+            <p>Select Gender:
+                <input type="radio" name="g" id="male"> Male
+                <input type="radio" name="g" id="female"> Female
+            </p>
+            <p>
+                Select Age Group:
+                <select name="age" id="age">
+                    <option value="">--Age Group--</option>
+                    <option value="first">16-22</option>
+                    <option value="second">23-35</option>
+                    <option value="third">36-50</option>
+                    <option value="fourth">51-70</option>
+                    <option value="fifth">Greater than 70</option>
+                </select>
+            </p>
+            <input type="submit" value="SUBMIT">
+            <input type="reset" value="RESET">
+        </form>
+        <!-- <hr>  -->
+        <footer>
+            COPYRIGHT &copy; THE DRIVING SCHOOL 2021 
+        </footer>
+    </div>
